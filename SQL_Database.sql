@@ -31,7 +31,7 @@ CREATE TABLE employees (
     PRIMARY KEY (employeeid)
 );
 
-CREAT TYPE status
+CREATE TYPE status
 AS ENUM(
     'Shipped',
     'Not shipped'
